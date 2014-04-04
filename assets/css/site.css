@@ -1,0 +1,64 @@
+.jumbo-header-wrapper {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  margin: -4% 0 3% 0;
+  width: 100%;
+}
+.jumbo-header {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  max-height: 450px;
+  clear: both;
+}
+.jumbo-header img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-width: none;
+  display: block;
+}
+.jumbo-header-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.jumbo-header-caption {
+  position: absolute;
+  left: 0;
+  display: block;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+  overflow: hidden;
+  text-align: center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  -moz-opacity: 0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+    background: #1f62b5;
+}
+.jumbo-header-caption h4 {
+  color:#fff;
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin: 0.625rem;
+}
+
+.search-mobile {
+    display: none;
+}
+
+.agenda-table tr td:first-child {
+    width:25%;
+}
+.fileicon {
+    display: inline;
+    margin-left: .25em;
+}

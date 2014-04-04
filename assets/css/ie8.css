@@ -1,0 +1,75 @@
+ /*! IE 8 & 9 Fontello Font FIX!!*/
+@font-face {
+  font-family: 'fontello';
+  	src: url('../font/fontello.eot'); 
+	src: url('../font/fontello.eot?#iefix') format('embedded-opentype')
+}
+
+/* https://github.com/fontello/fontello/issues/71#issuecomment-7580473 */
+/* http://everythingfonts.com/font-face#.UpNnAmTXip0 */
+
+
+.mobile-menu, .mobile-trigger-wrapper { display:none;}
+
+.primary-nav .parent i {visibility: hidden;}
+
+/* ---- LOGO FIX ---- */
+.no-svg #logo .fallbacklogo {
+  -ms-interpolation-mode: bicubic; /* 2 */
+  height: auto;
+  width: auto!important;
+  z-index:200;
+  }
+  
+.logo-link {z-index: 5000!important;}
+.logo-link img {width:100%;height:100%;} /*blank gif to make link work*/
+
+/* ---- box border sizing workaround ---- */
+.notify-wrapper,
+.notifymyass,
+.notifymyass *,
+#page *,
+#page *:before,
+#page *:after,
+.footer *,
+.footer *:before,
+.footer *:after,
+.popup-block *,
+.popup-block *:before,
+.popup-block *:after,
+.toolbar *,
+.toolbar *:before,
+.toolbar *:after {
+  box-sizing: border-box\0!important;
+}
+
+/* obey the no underline */
+a [class^="icon-"]:before,
+a [class*=" icon-"]:before {
+	text-decoration:none;
+}
+
+/* bug fix for floated containers ie 8*/
+/* http://believeinmiraclesx.wordpress.com/2012/08/16/ie8-images-disappear-when-placed-inside-a-floatleft-container/ */
+
+.image-widget li img {
+	max-width:none;
+}
+
+/* z-index menus are under some sliders */
+.header {z-index: 8999;}
+.toolbar {position:relative;z-index:9999;}
+
+.foo img {
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+    zoom: 1;
+
+}
+
+.footer, .short-headline, .widget {
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr=#00FFFFFF, endColorstr=#00FFFFFF
+    );
+}

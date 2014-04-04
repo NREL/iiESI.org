@@ -1,0 +1,122 @@
+#customCarouselSlider {
+  margin: -4% 0 3% 0;
+  background: url('../backgrounds/3p.png');
+  padding: 3% 0;
+  position: relative;
+}
+#myCarousel {
+  margin: 0;
+}
+#myCarousel div.carousel-inner,
+#myCarousel .carousel-indicators.thumbitup li {
+  position: relative;
+}
+#myCarousel.carousel.slide {
+  width: 100%;
+}
+#myCarousel.carousel.slide img {
+  width: 100%;
+}
+#myCarousel .carousel-control {
+  position: absolute;
+  top: 50%;
+  z-index: 15;
+  left: 0;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin-top: -50px;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 0px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  opacity: 1;
+  filter: none;
+}
+#myCarousel .carousel-control.right {
+  left: auto;
+  right: 0;
+}
+#myCarousel .carousel-control:hover,
+#myCarousel .carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.5;
+  filter: none;
+}
+@media screen and (min-width: 48em) {
+  #myCarousel .carousel-indicators {
+    position: absolute;
+    top: auto;
+    bottom: -15px;
+    right: auto;
+    left: 0;
+    z-index: 100;
+    margin: 0;
+    list-style: none;
+  }
+  #myCarousel .carousel-indicators li {
+    display: inline-block;
+    float: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 2px;
+    text-indent: -999px;
+    background-color: #222222;
+    border-radius: 5px;
+  }
+  #myCarousel .carousel-indicators .active {
+    background-color: #cccccc;
+  }
+  #myCarousel .carousel-indicators.thumbitup {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    text-align: right;
+    left: 0;
+    z-index: 100;
+    margin: 4px 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    height: 50px;
+    width: 100%;
+  }
+  #myCarousel .carousel-indicators.thumbitup li {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    float: none;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 0px;
+    cursor: pointer;
+    margin: 0 0 0 4px;
+    text-indent: 0;
+    background-color: transparent;
+    border-radius: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+  }
+  #myCarousel .carousel-indicators.thumbitup .active {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+  }
+}
