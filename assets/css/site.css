@@ -58,6 +58,11 @@
 .agenda-table tr td:first-child {
     width:25%;
 }
+
+.agenda-table-two-col tr td:first-child {
+    width:75%;
+}
+
 .fileicon {
     display: inline;
     margin-left: .25em;
