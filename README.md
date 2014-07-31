@@ -1,10 +1,10 @@
-iiesi
+iiESI
 =====
 
 iiESI.org website
 
 
-## Step to push files to test and prod
+## Steps to push files to test and prod
 1) Make sure your files are up to date.
 
 ```
@@ -30,6 +30,7 @@ To https://github.nrel.gov/communications/iiesi.git
 ```
 
 3) Sync the changes with AWS
+
 Test server:
 ```s3cmd sync /Volumes/websites/iiesidev/ s3://test.iiesi.org --acl-public --exclude ".git/*" --delete-removed --verbose```
 Prod server:
