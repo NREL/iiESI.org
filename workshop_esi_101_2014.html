@@ -1,0 +1,450 @@
+<!--[if IE ]><![endif]-->
+<!doctype html>
+<!--[if IE 8 ]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]> <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+<!-- META ============================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>iiESI: Energy Systems Integration 101</title>
+
+        <meta name="description" content="Bootstrap Theme"/>
+        <meta name="keywords" content="responsive bootstrap theme, clean bootstrap theme" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+<!-- CSS ============================================== -->
+        <!-- theme fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+        <!-- ___________________________READ ME________________________________________-->
+        <!-- Uncompressed css and LESS (upon request) are provided with purchase-->
+        <!-- _________________________________________________________________________-->
+
+        <!-- CUSTOM BOOTSTRAP -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.min.css" >
+
+        <!-- CORE design -->
+        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css" >
+
+        <!-- HEADER combine with the freshtone.css when you choose the one you're using but put it at the end of the file AFTER all other CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css" >
+
+
+        <!-- IE 8 Stylesheet -->
+        <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="assets/css/ie8.css" ><![endif]-->
+
+        <!-- IE 9 Stylesheet -->
+        <!--[if lt IE 10]><link rel="stylesheet" type="text/css" href="assets/css/ie9.css" ><![endif]-->
+
+        <!-- fontello icon fonts read this file before fiddling -->
+        <link rel="stylesheet" type="text/css" href="assets/css/fontello.min.css" >
+
+
+        <!-- Site-wide custom styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/site.css">
+
+        <!-- THIS PAGE: none-->
+
+
+        <!-- COLORS -->
+        <!-- add the color stylesheet here you want here if it's not the default green color -->
+        <link rel="stylesheet" type="text/css" href="assets/css/colors/blue.min.css" >
+
+
+<!-- SCRIPTS ============================================== -->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="assets/js/IE/html5shiv.js"></script>
+        <script src="assets/js/IE/respond.js"></script>
+        <![endif]-->
+
+
+        <!-- MODERNIZR -->
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+
+        <!--    NOTE:: jquery 2.x does not support IE 8 so version 1.9.1 is used for older versions of IE
+                :: calling jQuery in the head for ajax work if necessary.
+                -->
+        <!--[if gt IE 8]><!-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-2.0.3.min.js"><\/script>')</script>
+        <!--<![endif]-->
+        <!--[if lt IE 9]>
+        <script src="assets/js/IE/1.9.1-jquery.min.js"></script>
+        <![endif]-->
+
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+         (function() {
+            var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+            so.src = '//www.nrel.gov/includes/ga/orgs.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+          })();
+        </script>
+
+        <!-- WINDOWS 8 Phones BUG FIX -->
+        <script src="assets/js/IE/windows-fix.js"></script>
+
+</head>
+<body>
+
+
+<!-- The world wide usage of ie7 less than 1% now: http://theie7countdown.com/join-the-cause I would consider changing this to "if lt IE 9" so you can target ie 8 users too!!! -->
+<!--[if lt IE 8]>
+<iframe src="lt8frame.html" height="112" width="100%" scrolling="no"></iframe>
+<![endif]-->
+
+<!-- accessibility skip to nav skip content -->
+<ul class="sr-only" id="top">
+ <li><a href="#nav" title="Skip to navigation" accesskey="n">Skip to Navigation</a></li>
+ <li><a href="#page" title="Skip to content" accesskey="c">Skip to Content</a></li>
+</ul><!--  /.sr-only accessibility-->
+
+<!--stripe top bar -->
+<span class="stripe top-of-page hidden-print"></span>
+
+
+
+<div id="site-wrapper">
+
+<!-- ##### notice that the class on this trigger changes depending on the header used #### -->
+<div class="mobile-trigger-wrapper trigger-centered clearfix hidden-print">
+
+
+
+<!--mobile NAV/PRIMARY NAV trigger -->
+ <nav class="mobile-nav-trigger"><i class="icon-menu-1"></i> <span>menu</span></nav>
+
+<!--mobile TOOLBAR trigger -->
+<!--  <nav class="mobile-toolbar-trigger"><i class="icon-chat"></i> <span>contact / location</span></nav> -->
+<!-- ## use only VERY short 14 character or under words for the trigger names or create another solution for the mobile headers -->
+
+</div><!--/mobile-trigger-wrapper -->
+
+
+<nav class="mobile-menu hidden-print">
+
+   <div class="search-mobile">
+    <form action="your-search-action-script" method="get">
+     <input type="search" id="search-mobile" class="form-control" placeholder="Search and hit enter" />
+    </form>
+   </div>
+
+<!-- ****** jquery clones menu here for mobile ****** -->
+
+</nav><!--/.mobile-menu -->
+
+
+
+
+
+<div class="site-content clearfix">
+
+<!-- _________ BEGIN HEADER _________ -->
+<header class="header header-center clearfix">
+
+<!-- ### .header-left is added for jQuery -->
+
+<div class="container">
+<!--.header > .container keeps width in check -->
+
+
+
+
+<!-- _________ BEGIN LOGO _________ -->
+<div class="logo-wrapper"><!--manipulate logo position in some themes-->
+
+    <div id="logo">
+     <a href="index.html" class="logo-link"><img src="assets/images/blank.gif" alt="International Institute for Energy Systems Integration" /></a>
+
+    <!-- svg logo-->
+    <img class="logo-svg" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+
+    <!--.no-svg fallback -->
+    <img class="fallbacklogo" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+
+    </div><!-- / #logo -->
+
+<h2 class="tagline">Addressing energy challenges through global collaboration</h2>
+
+</div><!-- / logo-wrapper -->
+<!-- _________ END LOGO _________ -->
+
+
+<!-- _________ BEGIN MENU which is cloned for mobile from this html _________ -->
+<!-- BEFORE fiddling with the menu read theme-scaffolding.html#primary-menu -->
+
+<div id="nav" class="hidden-print" role="navigation">
+<ul class="primary-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="sponsors.html">Sponsors</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</ul>
+</div>
+<!--/#nav-->
+
+<!-- _________ END MENU which is cloned for mobile from this html _________ -->
+
+</div><!--/.header > .container-->
+</header>
+<!-- _________ END HEADER _________-->
+
+
+
+
+
+
+<div id="page">
+
+<!--.main-page-header begin-->
+<!--
+<div class="main-page-header text-center">
+    <div class="main-page-header-inner">
+    <h1>Header</h1>
+    </div>
+</div>
+-->
+<!--/.main-page-header-->
+
+<div class="primary-content clearfix">
+<!--______________________________________________________ begin page content ______________________________________________________-->
+
+
+
+<div class="container" >
+    <div class="content-inner-wrapper single-page">
+        <div class="row">
+            <div class="col-lg-12">
+
+<h1>Energy Systems Integration 101</h1>
+
+
+<p>Energy Systems Integration 101 was held July 21–25, 2014, at the National Renewable Energy Laboratory in Golden, Colorado.</p>
+<p>The workshop agenda and accompanying presentations are provided below.</p>
+
+<h2>Day 1 Agenda</h2>
+
+<table class="table agenda-table-two-col">
+
+  <tr>
+    <td><p>
+    <a href="assets/pdfs/101_omalley_1.pdf">Introduction to Energy Systems Integration (ESI) and Overview of ESI 101</a> </p></td>
+    <td><p>Mark O'Malley, University College Dublin, Ireland</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_kroposki.pdf">Benefits of ESI</a> </p></td>
+    <td><p>Ben Kroposki, National Renewable Energy Laboratory, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_madsen_1.pdf">State of the Art in Forecasting of Wind and Solar Power Generation</a> </p></td>
+    <td><p>Henrik Madsen, Technical University of Denmark</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_madsen_2.pdf">Demand Side Management: Framing the Issues</a> </p></td>
+    <td><p>Henrik Madsen, Technical University of Denmark</p></td>
+  </tr>
+</table>
+
+<h2>Day 2 Agenda</h2>
+
+<table class="table agenda-table-two-col">
+
+  <tr>
+    <td><p>
+    <a href="assets/pdfs/101_mccalley_1.pdf">Energy Systems Orientation and Electric Systems Expansion Planning</a> </p></td>
+    <td><p>Jim McCalley, Iowa State University, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_thomson.pdf">The Nexus of Energy and Water</a> </p></td>
+    <td><p>Pete Thomson, Black and Veatch, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_mccalley_2.pdf">Gas-Electricity Nexus</a> </p></td>
+    <td><p>Jim McCalley, Iowa State University, USA</p></td>
+  </tr>
+</table>
+
+<h2>Day 3 Agenda</h2>
+
+
+<table class="table agenda-table-two-col">
+
+  <tr>
+    <td><p>
+    <a href="assets/pdfs/101_lasseter_1.pdf">Distributed Energy Resources</a> </p></td>
+    <td><p>Bob Lasseter, University of Wisconsin, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_lasseter_2.pdf">New Energy Paradigm: Dynamic Distribution</a></p></td>
+    <td><p>Bob Lasseter, University of Wisconsin, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_mccalley_3.pdf">Integrated Energy/Transportation Continent-Wide Infrastructure Design</a></p></td>
+    <td><p>Jim McCalley, Iowa State University, USA</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_cochran.pdf">ESI: Policies, Regulations, and Business Models</a> </p></td>
+    <td><p>Jaqueline Cochran, National Renewable Energy Laboratory, USA</p></td>
+  </tr>
+</table>
+
+
+<h2> Day 4 Agenda</h2>
+
+
+<table class="table agenda-table-two-col">
+
+  <tr>
+    <td><p>
+    <a href="assets/pdfs/101_madsen_3.pdf">Grey-Box Models and Controllers for ESI</a> </p></td>
+    <td><p>Henrik Madsen, Technical University of Denmark</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_madsen_4.pdf">Statistical Modeling of Physical Systems: An introduction to Grey Box Modeling</a> </p></td>
+    <td><p>Henrik Madsen, Technical University of Denmark</p></td>
+  </tr>
+  <tr>
+    <td><p><a href="assets/pdfs/101_omalley_2.pdf">Integration of Variable Renewables into Electricity Grids</a> </p></td>
+    <td><p>Mark O'Malley, University College Dublin, Ireland</p></td>
+  </tr>
+</table>
+
+<h2>Day 5 Agenda</h2>
+
+
+<table class="table agenda-table-two-col">
+
+  <tr>
+    <td><p>
+    <a href="assets/pdfs/101_dent.pdf">Statistical Modelling for Energy Systems Integration</a>  </p></td>
+    <td><p>Chris Dent, Durham University, United Kingdom</p></td>
+  </tr>
+  <tr>
+    <td><p>Project Reports </p>
+    <ul>
+      <li><a href="assets/pdfs/101_california.pdf">California</a></li>
+      <li><a href="assets/pdfs/101_denmark.pdf">Denmark</a></li>
+      <li><a href="assets/pdfs/101_ireland.pdf">Ireland</a></li>
+      <li><a href="assets/pdfs/101_japan.pdf">Japan</a></li>
+      <li><a href="assets/pdfs/101_new_zealand.pdf">New Zealand</a></li>
+      <li><a href="assets/pdfs/101_china.pdf">China</a></li>
+      <li><a href="assets/pdfs/101_oahu.pdf">Oahu</a></li>
+      <li><a href="assets/pdfs/101_australia.pdf">Australia</a></li>
+    </ul></td>
+    <td><p><strong>&nbsp;</strong></p></td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div><!--.content-inner-wrapper-->
+</div><!--close .container -->
+
+
+<!--______________________________________________________ end page content______________________________________________________ -->
+</div><!--/.primary-content-->
+
+</div><!--/#page-->
+
+
+
+<!-- ______________ BEGIN FOOTER ______________ -->
+<footer class="footer clearfix" id="footer">
+    <span class="stripe footer-top"></span>
+
+    <div class="container">
+        <!--max-width holder-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+
+<p><a href="contacts.html">Contacts</a> | <a href="http://www.nrel.gov/security.html">Security &amp; Privacy</a> | <a href="http://www.nrel.gov/disclaimer.html">Disclaimer</a></p>
+
+<p>This website is managed and hosted by the National Renewable Energy Laboratory.</p>
+
+<p>Sponsored by a group of U.S. and European entities, including the U.S. Department of Energy's National Renewable Energy Laboratory and Pacific Northwest National Laboratory, the Electric Power Research Institute, University College Dublin, and Technical University of Denmark</p>
+
+
+
+            </div>
+            <!-- / .col-lg-12 col-md-12 col-sm-12 -->
+        </div>
+        <!-- close .row-->
+    </div>
+    <!-- / footer .container-->
+</footer>
+<!-- ______________ END FOOTER ______________ -->
+
+
+
+
+
+
+</div>
+<!--/.site-content -->
+
+</div>
+<!--/#site-wrapper -->
+
+<!--to top -->
+<div id="toTop" title="up">
+ <i class="icon-up-open-big"></i>
+</div>
+
+
+
+
+<!-- ====== MENU  ========= -->
+<script src="assets/js/jquery.site-menu.min.js"></script>
+
+<!-- ====== CORE SCRIPTS  ========= -->
+<script src="assets/js/bootstrap.min.js"></script><!-- bootstrap / custom.js loads -->
+
+
+<!-- #### the custom script that runs the site #### -->
+<script src="assets/js/jquery.custom.js"></script>
+
+<!-- #### affix scrollspy runs after other jQuery #### -->
+<script src="assets/js/jquery.custom-scrollspy-affix-sidebar.min.js"></script><!--custom affix and scrollspy-->
+
+
+
+<!-- ====== IF THERE ARE SPECIFIC INITIALIZATIONS OR SCRIPTS FOR THIS PAGE, THEY GO HERE ========= -->
+
+<script src="//www.nrel.gov/includes/js/iconomatic/nrel.iconomatic.jquery.min.js"></script>
+<script>
+    $(document).ready( function(){
+        $('body').iconomatic();
+    });
+</script>
+
+<!-- ====== IE 8 and 9 scripts wrapped in if statements loads faster than conditionals ========= -->
+<script src="assets/js/IE/ie8_9.js"></script>
+<script src="assets/js/IE/selectivizr-min.js"></script>
+
+
+</body>
+</html>
+
