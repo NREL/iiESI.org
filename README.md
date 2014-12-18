@@ -11,7 +11,7 @@ AWS CLI (https://github.com/aws/aws-cli)
 1) Make sure your files are up to date.
 
 ```
-moakley@moakley-25755s:/Volumes/websites/iiesidev on master
+/Volumes/websites/iiesidev
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -19,7 +19,7 @@ Your branch is up-to-date with 'origin/master'.
 
 2) Make your changes on dev and push them to GHE.
 ```
-moakley@moakley-25755s:/Volumes/websites/iiesidev on master*
+/Volumes/websites/iiesidev
 $ git commit -a -m 'Added new cool widget to home page.'
 ...
 $ git push
