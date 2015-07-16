@@ -1,7 +1,7 @@
 .jumbo-header-wrapper {
   position: relative;
   padding: 0;
-  overflow: hidden;
+/*  overflow: hidden; */
   margin: -4% 0 3% 0;
   width: 100%;
 }
@@ -11,8 +11,8 @@
   margin: 0;
   position: relative;
   margin-bottom: 10px;
-  overflow: hidden;
-  max-height: 450px;
+/*  overflow: hidden;
+  max-height: 450px; */
   clear: both;
 }
 .jumbo-header img {
@@ -21,6 +21,7 @@
   left: 0px;
   max-width: none;
   display: block;
+  margin:1em 0;
 }
 .jumbo-header-main-image {
   display: block !important;
@@ -33,22 +34,16 @@
   left: 0;
   display: block;
   right: 0;
-  bottom: 0;
+  top: 0;
   z-index: 8;
   overflow: hidden;
-  text-align: center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-  filter: alpha(opacity=90);
-  -moz-opacity: 0.9;
-  -khtml-opacity: 0.9;
-  opacity: 0.9;
-    background: #1f62b5;
+  text-align: right;
 }
 .jumbo-header-caption h4 {
   color:#fff;
-  font-size: 1.125rem;
-  font-weight: normal;
-  margin: 0.625rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem 1rem;
 }
 
 .search-mobile {
@@ -67,3 +62,35 @@
     display: inline;
     margin-left: .25em;
 }
+.footer {
+	text-align:center;
+	margin-top:3em;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }

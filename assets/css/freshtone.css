@@ -162,8 +162,8 @@ body,
 .short-headline span span,
 .btn.btn-knockout {
   background-color: #ffffff;
-  background-image: url('../backgrounds/extra_clean_paper.gif');
-  background-attachment: fixed;
+/*  background-image: url('../backgrounds/extra_clean_paper.gif');
+  background-attachment: fixed; */
 }
 .content-inner-wrapper .short-headline span span {
   background-image: none!important;
@@ -1021,7 +1021,7 @@ h6,
 .mobile-menu,
 .btn,
 .toolbar {
-  font-family: "Roboto Slab", arial, lucida grande, helvetica, sans-serif;
+  font-family: "Roboto", arial, lucida grande, helvetica, sans-serif;
 }
 .primary-menu,
 .mobile-menu {
@@ -1513,7 +1513,7 @@ dd {
   form,
   input,
   textarea {
-    font-weight: 300;
+    font-weight: 500;
   }
   .huge {
     font-size: 300%;

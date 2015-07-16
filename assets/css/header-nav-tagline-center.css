@@ -91,7 +91,7 @@ but it works so well.
   /*---------------------------[ #logo - logo tablet size centered ]---------------------------*/
   #logo {
     width: 100%;
-    padding: 20px 0 10px;
+/*    padding: 20px 0 10px; */
     position: relative;
     text-align: center;
   }
@@ -141,7 +141,7 @@ but it works so well.
   .no-js #logo .fallbacklogo,
   .no-svg #logo .fallbacklogo {
     width: 100%;
-    max-width: 200px;
+    max-width: 300px;
     margin: 0;
   }
 }
@@ -438,12 +438,12 @@ a new class is assigned.
     text-decoration: none;
   }
   /* --- top level link borders --- */
-  .primary-nav > li:not(:last-child) > a {
+  /*.primary-nav > li:not(:last-child) > a {
     border-right: 1px solid #689813;
   }
   .primary-nav > li:not(:first-child) > a {
     border-left: 1px solid #7ab217;
-  }
+  } */
   /* --- child level link --- */
   .primary-nav li ul a {
     height: auto;
@@ -475,9 +475,9 @@ a new class is assigned.
     margin: 0;
     padding: 0;
     list-style: none;
-    float: right;
+ /*   float: right; */
     position: relative;
-    right: 50%;
+ /*   right: 50%; */
   }
   /* --- child ul --- */
   .primary-nav ul {
