@@ -11,8 +11,6 @@
 
         <title>International Institute for Energy Systems Integration (iiESI) Home Page</title>
 
-        <meta name="description" content="Bootstrap Theme"/>
-        <meta name="keywords" content="responsive bootstrap theme, clean bootstrap theme" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -31,10 +29,10 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.min.css" >
 
         <!-- CORE design -->
-        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css" >
 
         <!-- HEADER combine with the freshtone.css when you choose the one you're using but put it at the end of the file AFTER all other CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css" >
 
 
         <!-- IE 8 Stylesheet -->
@@ -48,13 +46,15 @@
 
         <!-- Site-wide custom styles -->
         <link rel="stylesheet" type="text/css" href="assets/css/site.css">
+        
 
         <!-- THIS PAGE: none-->
+		<link href="assets/css/carousel.min.css" rel="stylesheet">
 
 
         <!-- COLORS -->
         <!-- add the color stylesheet here you want here if it's not the default green color -->
-        <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.min.css" >
 
 
 
@@ -191,11 +191,11 @@
 
 <div id="nav" class="hidden-print" role="navigation">
 <ul class="primary-nav">
-    <li><a href="index.html">Home</a></li>
+    <li class="active"><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="education.html">Education</a></li>
-    <li><a href="sponsors.html">Sponsors</a></li>
-    <li><a href="news.html">News</a></li>
+    <li><a href="sponsors.html">Sponsors &amp; Members</a></li>
+    <!-- li><a href="news.html">News</a></li -->
     <li><a href="events.html">Events</a></li>
     <li><a href="contacts.html">Contacts</a></li>
 </ul>
@@ -215,26 +215,38 @@
 
 <div id="page">
 
-<!-- _________ BEGIN NIVO SLIDER :: jquery.nivo.slider.min.js _________-->
-<div class="jumbo-header-wrapper">
 
 
-		<div class="container">
-        <div class="jumbo-header">
-            <img class="jumbo-header-main-image" src="assets/images/think-share-evolve.jpg" alt="Photo of a plug on an electric car." />
+<!-- Carousel
+    ================================================== -->
 
-            <!--div class="jumbo-header-caption">
-                <div class="container">
-                    <div class="row">
-                        <h4>Think. Share. Evolve.</h4>
-                    </div>
-                </div>
-            </div -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+  <!-- Indicators -->
 
-        </div>
-        </div>
-</div>
-<!-- _________ END NIVO SLIDER :: jquery.nivo.slider.pack.js _________-->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+    <img class="img-responsive" src="assets/images/hp-01.jpg" alt="First slide">
+    </div>
+    <div class="item"> 
+    <img class="img-responsive" src="assets/images/hp-02.jpg" alt="Second slide">
+    </div>
+    <div class="item">
+    <img class="img-responsive" src="assets/images/hp-03.jpg" alt="Third slide">
+    </div>
+    <div class="item">
+    <img class="img-responsive" src="assets/images/hp-04.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
+ </div>
+
+<!-- /.carousel -->
 
 
 <div class="primary-content clearfix">
@@ -352,6 +364,20 @@ This website is managed and hosted by the National Renewable Energy Laboratory.<
 <script src="assets/js/IE/ie8_9.js"></script>
 <script src="assets/js/IE/selectivizr-min.js"></script>
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 </html>
