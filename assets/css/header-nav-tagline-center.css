@@ -113,6 +113,7 @@ but it works so well.
     max-width: 200px;
     margin: 0 auto;
   }
+
 }
 @media (min-width: 62em) {
   /*---------------------------[ #logo - logo biggest ]---------------------------*/
@@ -519,8 +520,23 @@ a new class is assigned.
     padding: 0;
     margin: 0;
     position: relative;
-    left: 50%;
   }
+  
+	  /* Small Devices, Tablets */
+		@media only screen and (min-width : 768px) {
+		.primary-nav li {
+		  left:35%;
+		}
+	
+		/* Medium Devices, Desktops */
+		@media only screen and (min-width : 992px) {
+		.primary-nav li {
+		  left:50%;
+		}
+		}
+  
+  
+  
   /* --- child level list item -- */
   .primary-nav li ul li {
     left: auto;
