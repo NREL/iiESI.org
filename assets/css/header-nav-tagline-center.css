@@ -93,7 +93,7 @@ but it works so well.
     width: 100%;
 /*    padding: 20px 0 10px; */
     position: relative;
-    text-align: center;
+    text-align: left;
   }
   .header .logo-wrapper {
     max-width: 1000px;
@@ -103,7 +103,7 @@ but it works so well.
     /* fast clearfix */
   }
   .logo-wrapper h2.tagline {
-    text-align: center;
+    text-align: left;
     font-size: 95%;
   }
   .logo-svg,
@@ -111,7 +111,7 @@ but it works so well.
   .no-svg #logo .fallbacklogo {
     width: 100%;
     max-width: 200px;
-    margin: 0 auto;
+    margin: 0;
   }
 
 }
