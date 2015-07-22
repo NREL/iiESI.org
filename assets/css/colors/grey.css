@@ -12,8 +12,8 @@
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #6d6e71;
-  border-color: #1b569f;
+  background-color: #337ab7;
+  border-color: #2e6da4;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -44,8 +44,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #6d6e71;
-  border-color: #1b569f;
+  background-color: #286090;
+  border-color: #204d74;
 }
 .btn-primary .badge {
   color: #6d6e71;

@@ -64,7 +64,16 @@
 }
 .footer {
 	text-align:center;
-	margin-top:3em;
+	margin-top:5em;
+}
+.greybg {
+	background-color:#6d6e71; 
+	color:#fff;
+	padding:3em 0;
+	margin-bottom:3em;
+}
+.greybg h2 {
+	color:#fff;
 }
 
 /*==========  Mobile First Method  ==========*/
