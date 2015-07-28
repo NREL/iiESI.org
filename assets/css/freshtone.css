@@ -46,7 +46,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5;
   word-wrap: break-word;
   overflow-x: hidden;
@@ -61,7 +61,7 @@ body {
 @media (min-width: 48em) {
   body {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.75;
     word-wrap: normal;
   }
@@ -185,7 +185,7 @@ body,
 }
 /* ------------- #page -------------- */
 #page {
-  padding: 4% 0;
+  padding: 1% 0;
   position: relative;
   clear: both;
   -webkit-transition: padding 0.25s linear;
@@ -199,11 +199,10 @@ body,
   background: #ffffff;
   margin-bottom: 20px;
   margin-bottom: 1.25rem;
-  padding: 10px 10px 0px 10px;
-  border: 1px solid #dddddd;
+  padding: 0px 10px;
 }
 .content-inner-wrapper.single-page {
-  padding: 10px 10px 0px 10px;
+  padding: 0px 10px;
 }
 .content-inner-wrapper.wide-wrapper {
   padding-left: 0;
@@ -222,7 +221,7 @@ body,
     padding: 30px 30px 10px 30px;
   }
   .content-inner-wrapper.single-page {
-    padding: 40px 40px 20px 40px;
+    padding: 10px 40px;
   }
 }
 /* --------- RETINA ISOLATED FROM IE8 due to respond.js being too good ------------- */
