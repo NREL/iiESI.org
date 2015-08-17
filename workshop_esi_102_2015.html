@@ -1,0 +1,459 @@
+<!doctype html>
+<html class="no-js" lang="en"> 
+<head>
+
+<!-- META ============================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>iiESI: Energy Systems Integration 102</title>
+
+        <meta name="description" content="Bootstrap Theme"/>
+        <meta name="keywords" content="responsive bootstrap theme, clean bootstrap theme" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+<!-- CSS ============================================== -->
+        <!-- theme fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+        <!-- ___________________________READ ME________________________________________-->
+        <!-- Uncompressed css and LESS (upon request) are provided with purchase-->
+        <!-- _________________________________________________________________________-->
+
+        <!-- CUSTOM BOOTSTRAP -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.min.css" >
+
+        <!-- CORE design -->
+        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css">
+
+        <!-- HEADER combine with the freshtone.css when you choose the one you're using but put it at the end of the file AFTER all other CSS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css">
+
+
+        <!-- IE 8 Stylesheet -->
+        <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="assets/css/ie8.css" ><![endif]-->
+
+        <!-- IE 9 Stylesheet -->
+        <!--[if lt IE 10]><link rel="stylesheet" type="text/css" href="assets/css/ie9.css" ><![endif]-->
+
+        <!-- fontello icon fonts read this file before fiddling -->
+        <link rel="stylesheet" type="text/css" href="assets/css/fontello.min.css" >
+
+
+        <!-- Site-wide custom styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/site.css">
+
+        <!-- THIS PAGE: none-->
+
+
+        <!-- COLORS -->
+        <!-- add the color stylesheet here you want here if it's not the default green color -->
+        <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.min.css" >
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/assets/images/favicon-194x194.png" sizes="194x194">
+        <link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/assets/images/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/assets/images/manifest.json">
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="msapplication-TileImage" content="/assets/images/mstile-144x144.png">
+        <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+
+
+<!-- SCRIPTS ============================================== -->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="assets/js/IE/html5shiv.js"></script>
+        <script src="assets/js/IE/respond.js"></script>
+        <![endif]-->
+
+
+        <!-- MODERNIZR -->
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+
+        <!--    NOTE:: jquery 2.x does not support IE 8 so version 1.9.1 is used for older versions of IE
+                :: calling jQuery in the head for ajax work if necessary.
+                -->
+        <!--[if gt IE 8]><!-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/jquery-2.0.3.min.js"><\/script>')</script>
+        <!--<![endif]-->
+        <!--[if lt IE 9]>
+        <script src="assets/js/IE/1.9.1-jquery.min.js"></script>
+        <![endif]-->
+
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+         (function() {
+            var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+            so.src = '//www.nrel.gov/includes/ga/orgs.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+          })();
+        </script>
+
+        <!-- WINDOWS 8 Phones BUG FIX -->
+        <script src="assets/js/IE/windows-fix.js"></script>
+
+</head>
+<body>
+
+<!-- accessibility skip to nav skip content -->
+<ul class="sr-only" id="top">
+ <li><a href="#nav" title="Skip to navigation" accesskey="n">Skip to Navigation</a></li>
+ <li><a href="#page" title="Skip to content" accesskey="c">Skip to Content</a></li>
+</ul><!--  /.sr-only accessibility-->
+
+<!--stripe top bar -->
+<span class="stripe top-of-page hidden-print"></span>
+
+
+
+<div id="site-wrapper">
+
+<!-- ##### notice that the class on this trigger changes depending on the header used #### -->
+<div class="mobile-trigger-wrapper trigger-centered clearfix hidden-print">
+
+
+
+<!--mobile NAV/PRIMARY NAV trigger -->
+ <nav class="mobile-nav-trigger"><i class="icon-menu-1"></i> <span>menu</span></nav>
+
+<!--mobile TOOLBAR trigger -->
+<!--  <nav class="mobile-toolbar-trigger"><i class="icon-chat"></i> <span>contact / location</span></nav> -->
+<!-- ## use only VERY short 14 character or under words for the trigger names or create another solution for the mobile headers -->
+
+</div><!--/mobile-trigger-wrapper -->
+
+
+<nav class="mobile-menu hidden-print">
+
+   <div class="search-mobile">
+    <form action="your-search-action-script" method="get">
+     <input type="search" id="search-mobile" class="form-control" placeholder="Search and hit enter" />
+    </form>
+   </div>
+
+<!-- ****** jquery clones menu here for mobile ****** -->
+
+</nav><!--/.mobile-menu -->
+
+
+
+
+
+<div class="site-content clearfix">
+
+<!-- _________ BEGIN HEADER _________ -->
+<header class="header header-center clearfix">
+
+<!-- ### .header-left is added for jQuery -->
+
+<div class="container">
+<!--.header > .container keeps width in check -->
+
+
+
+
+<!-- _________ BEGIN LOGO _________ -->
+<div class="logo-wrapper"><!--manipulate logo position in some themes-->
+
+    <div id="logo">
+     <a href="index.html" class="logo-link"><img src="assets/images/blank.gif" alt="International Institute for Energy Systems Integration" /></a>
+
+    <!-- svg logo-->
+    <img class="logo-svg" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+
+    <!--.no-svg fallback -->
+    <img class="fallbacklogo" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+
+    </div><!-- / #logo -->
+
+
+</div><!-- / logo-wrapper -->
+<!-- _________ END LOGO _________ -->
+
+
+<!-- _________ BEGIN MENU which is cloned for mobile from this html _________ -->
+<!-- BEFORE fiddling with the menu read theme-scaffolding.html#primary-menu -->
+
+<div id="nav" class="hidden-print" role="navigation">
+<ul class="primary-nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="sponsors.html">Sponsors &amp; Members</a></li>
+    <!--li><a href="news.html">News</a></li -->
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contacts.html">Contacts</a></li>
+</ul>
+</div>
+<!--/#nav-->
+
+<!-- _________ END MENU which is cloned for mobile from this html _________ -->
+
+</div><!--/.header > .container-->
+</header>
+<!-- _________ END HEADER _________-->
+
+
+
+
+
+
+<div id="page">
+
+<!--.main-page-header begin-->
+<!--
+<div class="main-page-header text-center">
+    <div class="main-page-header-inner">
+    <h1>Header</h1>
+    </div>
+</div>
+-->
+<!--/.main-page-header-->
+
+<div class="primary-content clearfix">
+<!--______________________________________________________ begin page content ______________________________________________________-->
+
+
+
+<div class="container" >
+    <div class="content-inner-wrapper single-page">
+        <div class="row">
+            <div class="col-lg-12">
+
+
+<h1>Energy Systems Integration 102</h1>
+
+<h2>National Renewable Energy Laboratory, Golden, Colorado, USA<br>August 3–7, 2015</h2>
+
+<p>The Energy Systems Integration (ESI) 102 workshop was held August 3–7, 2015, at the Energy Systems Integration Facility at the National Renewable Energy Laboratory in Golden, Colorado. The course covered the research challenges of ESI at all scales (from residential to continental) across multiple energy (and non-energy) domains from a technical, market, regulatory, and consumer standpoint.  The course was designed to give a snapshot on the state of the art in ESI and the research challenges. The course was designed for graduate students and practitioners working in the field with a very diverse set of backgrounds.</p>
+
+<div>
+<img src="assets/images/esi102-mt-evans2.jpg" alt="Photo of a group of people standing on top of a mountain with a river running below." class="img-responsive">
+<p class="small">ESI 102 students and speakers at Mount Evans in Colorado.</p>
+</div>
+
+<p>The workshop agenda and accompanying presentations are provided below.</p>
+
+<h2>Day 1</h2>
+
+<table class="table agenda-table-two-col">
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_omalley1.pdf">Introduction and overview</a></p></td>
+        <td><p>Prof. Mark O'Malley, University College Dublin, Ireland</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_dhaeseleer.pdf">Experience from Europe: ESI Challenges and Identification of Pertinent Research Issues</a></p></td>
+        <td><p>Prof. William D'haeseleer, KU Leuven, Belgium</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_lopezbotetsilva.pdf">Energy System Planning and the Interactions with Electricity System Planning: A European Model</a></p></td>
+        <td><p>Drs. Vera Silva and Miguel Lopez-Botet Zulueta, Environmental Defense Fund, France</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_omalley2.pdf">Integrated energy system models</a></p></td>
+        <td><p>Prof. Mark O'Malley, University College Dublin, Ireland, and Iris van Beuzekom, Eindhoven University of Technology, Netherlands</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_vanbeuzekom1.pdf">Introduction to EnergyPLAN</a></p>
+        <p><em>Accompanying conference paper: <a href="assets/pdfs/iiesi_102_vanbeuzekom_conf_paper.pdf">A review of multi-energy system planning and optimization tools for sustainable urban development</a></em></p></td>
+        <td><p>Prof. Mark O'Malley, University College Dublin, Ireland, and Iris van Beuzekom, Eindhoven University of Technology, Netherlands</p></td>
+    </tr>    
+</table>
+
+
+<h2>Day 2</h2>
+
+<table class="table agenda-table-two-col">
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_palminiterruth.pdf">Integrated Electricity And Market Modelling: A High Performance Computing Example</a></p></td>
+        <td><p>Dr. Bryan Palmintier and Mark Ruth, National Renewable Energy Laboratory, USA</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_homer.pdf">Introduction to HOMER</a></p></td>
+        <td><p>National Renewable Energy Laboratory</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_mccalley1.pdf">Co-Optimization Methods for Integrated Design and Assessment of Natural Gas/Electric Systems/Transportation Systems</a></p></td>
+        <td><p>Prof. James McCalley, Iowa State University, USA</p></td>
+    </tr>
+    <tr>
+        <td colspan="2"><p>Group exercise: ESI examples with EnergyPLAN</p></td>
+    </tr>
+</table>
+
+
+<h2>Day 3</h2>
+
+<table class="table agenda-table-two-col">
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_mccalley2.pdf">Economies of Scale versus Societal Interest in Small Autonomous Systems</a></p></td>
+        <td><p>Prof. James McCalley, Iowa State University, USA</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_hansensuryanarayanan.pdf">Cyber Physical Social Systems: Modelling of Consumer Assets and Behavior in an Integrated Energy System</a></p></td>
+        <td><p>Prof. Sid Suryanarayanan and Tim Hansen, Colorado State University, USA</p></td>
+    </tr>
+    <tr>
+        <td><p>Group exercise: Using EnergyPLAN, illustrate an example of ESI</p></td>
+        <td><p>Prof. Mark O'Malley, University College Dublin, Ireland, and Iris van Beuzekom, Eindhoven University of Technology, Netherlands</p></td>
+    </tr>
+</table>
+
+
+<h2>Day 4</h2>
+
+<table class="table agenda-table-two-col">
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_steg.pdf">Behavior And Impact of the Consumer in an Integrated Energy System</a></p></td>
+        <td><p>Prof. Linda Steg, University of Groningen, Netherlands</p></td>
+    </tr>
+    <tr>
+        <td><p>Prof. Linda Steg, University of Groningen, Netherlands</p></td>
+        <td><p>Dr. Pierluigi Mancarella, University of Manchester, United Kingdom</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_bellastbury.pdf">From Customers To Prosumers in an Equitable Low Carbon Transition</a></p>
+            <p><a href="assets/pdfs/iiesi_102_bellastbury_handout.pdf">Accompanying handout</a></p></td>
+        <td><p>Sandra Bell and Janice Astbury, University of Durham, United Kingdom</p></td>
+    </tr>
+    <tr>
+        <td><p>Group exercise: Using EnergyPLAN, find the shortcomings of integrated energy system models</p></td>
+        <td><p>Prof. Mark O'Malley, University College Dublin, Ireland, and Iris van Beuzekom, Eindhoven University of Technology, Netherlands</p></td>
+    </tr>
+</table>
+
+<h2>Day 5</h2>
+
+<table class="table agenda-table-two-col">
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_mancarella2.pdf">Flexibility in Integrated Energy Systems And Virtual Storage</a></p></td>
+        <td><p>Dr. Pierluigi Mancarella, University of Manchester, United Kingdom</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_ela.pdf">Electricity Market Models</a></p></td>
+        <td><p>Dr. Erik Ela, Electric Power Research Institute, USA</p></td>
+    </tr>
+    <tr>
+        <td><p><a href="assets/pdfs/iiesi_102_henze.pdf">End to End Impact of Building System Response and Load Flexibility</a></p></td>
+        <td><p>Dr. Gregor P. Henze, University of Colorado, Boulder, USA</p></td>
+    </tr>
+</table>
+
+<div>
+<img src="assets/images/esi102-mt-evans.jpg" alt="Photo of a group of people standing in front of a mountain." class="img-responsive">
+<p class="small">ESI 102 students and speakers at Mount Evans in Colorado.</p>
+</div>
+
+            </div>
+        </div>
+    </div><!--.content-inner-wrapper-->
+</div><!--close .container -->
+
+
+<!--______________________________________________________ end page content______________________________________________________ -->
+</div><!--/.primary-content-->
+
+</div><!--/#page-->
+
+
+
+<!-- ______________ BEGIN FOOTER ______________ -->
+<footer class="footer clearfix" id="footer">
+
+    <div class="container">
+        <!--max-width holder-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+
+
+
+<p><a href="contacts.html">Contacts</a> | <a href="http://www.nrel.gov/security.html">Security &amp; Privacy</a> | <a href="http://www.nrel.gov/disclaimer.html">Disclaimer</a><br>
+This website is managed and hosted by the National Renewable Energy Laboratory.</p>
+
+
+
+
+
+            </div>
+            <!-- / .col-lg-12 col-md-12 col-sm-12 -->
+        </div>
+        <!-- close .row-->
+    </div>
+    <!-- / footer .container-->
+</footer>
+<!-- ______________ END FOOTER ______________ -->
+
+
+
+
+
+
+</div>
+<!--/.site-content -->
+
+</div>
+<!--/#site-wrapper -->
+
+<!--to top -->
+<div id="toTop" title="up">
+ <i class="icon-up-open-big"></i>
+</div>
+
+
+
+
+<!-- ====== MENU  ========= -->
+<script src="assets/js/jquery.site-menu.min.js"></script>
+
+<!-- ====== CORE SCRIPTS  ========= -->
+<script src="assets/js/bootstrap.min.js"></script><!-- bootstrap / custom.js loads -->
+
+
+<!-- #### the custom script that runs the site #### -->
+<script src="assets/js/jquery.custom.js"></script>
+
+<!-- #### affix scrollspy runs after other jQuery #### -->
+<script src="assets/js/jquery.custom-scrollspy-affix-sidebar.min.js"></script><!--custom affix and scrollspy-->
+
+
+
+<!-- ====== IF THERE ARE SPECIFIC INITIALIZATIONS OR SCRIPTS FOR THIS PAGE, THEY GO HERE ========= -->
+
+<!--script src="assets/js/jquery.iconomatic.min.js"></script>
+<script>
+    $(document).ready( function(){
+        $('body').iconomatic();
+    });
+</script-->
+
+<!-- ====== IE 8 and 9 scripts wrapped in if statements loads faster than conditionals ========= -->
+<script src="assets/js/IE/ie8_9.js"></script>
+<script src="assets/js/IE/selectivizr-min.js"></script>
+
+
+</body>
+</html>
+
