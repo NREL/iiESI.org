@@ -109,6 +109,10 @@
 
         <!-- WINDOWS 8 Phones BUG FIX -->
         <script src="assets/js/IE/windows-fix.js"></script>
+        
+        <!-- JWPlayer for video -->
+        <script type="text/javascript" src="/assets/js/jw6/jwplayer.js" ></script> 
+		<script type="text/javascript">jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
 <!-- hello! -->
 </head>
 <body>
@@ -302,7 +306,28 @@
   <div class="pagination-centered">
   <a class="btn btn-primary" href="education.html" role="button">Learn More About ESI</a>
   </div>
-
+  
+<!-- START VIDEO EMBEDDING -->
+<div class="hpvideo">  
+<div id="iiesi" ></div>
+<script>
+    jwplayer("iiesi").setup({
+        file: "/assets/media/iiesi-720p.mp4",
+        image: "/assets/images/poster-iiesi-video.jpg",
+		aspectratio: "16:9",
+		width: "100%",
+		sharing: {}
+//        tracks: [{ 
+//          file: "###",
+//		   "default": 'false'
+//        }],
+//		 captions: { 
+//		 color: 'ffffff', 
+//		 fontsize: '12'
+//		 }
+    });
+</script>
+</div><!-- END VIDEO EMBEDDING -->
 
    </div>
   </div>
