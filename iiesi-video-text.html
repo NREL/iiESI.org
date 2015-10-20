@@ -1,13 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en"> 
 <head>
 
 <!-- META ============================================== -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>International Institute for Energy Systems Integration (iiESI) Home Page</title>
+        <title>iiESI: Energy Systems Integration 102</title>
 
+        <meta name="description" content="Bootstrap Theme"/>
+        <meta name="keywords" content="responsive bootstrap theme, clean bootstrap theme" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,10 +28,10 @@
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.min.css" >
 
         <!-- CORE design -->
-        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css">
 
         <!-- HEADER combine with the freshtone.css when you choose the one you're using but put it at the end of the file AFTER all other CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css">
 
 
         <!-- IE 8 Stylesheet -->
@@ -41,19 +43,18 @@
         <!-- fontello icon fonts read this file before fiddling -->
         <link rel="stylesheet" type="text/css" href="assets/css/fontello.min.css" >
 
+
         <!-- Site-wide custom styles -->
         <link rel="stylesheet" type="text/css" href="assets/css/site.css">
-        
 
         <!-- THIS PAGE: none-->
-		<link href="assets/css/carousel.min.css" rel="stylesheet">
 
 
         <!-- COLORS -->
         <!-- add the color stylesheet here you want here if it's not the default green color -->
         <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.min.css" >
-
-		<!-- Favicons -->
+        
+        <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/apple-touch-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon-72x72.png">
@@ -74,6 +75,8 @@
         <meta name="msapplication-TileImage" content="/assets/images/mstile-144x144.png">
         <meta name="msapplication-config" content="/assets/images/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+
+
 
 <!-- SCRIPTS ============================================== -->
 
@@ -98,6 +101,7 @@
         <script src="assets/js/IE/1.9.1-jquery.min.js"></script>
         <![endif]-->
 
+
         <!-- Google Analytics -->
         <script type="text/javascript">
          (function() {
@@ -109,11 +113,7 @@
 
         <!-- WINDOWS 8 Phones BUG FIX -->
         <script src="assets/js/IE/windows-fix.js"></script>
-        
-        <!-- JWPlayer for video -->
-        <script type="text/javascript" src="/assets/js/jw6/jwplayer.js" ></script> 
-		<script type="text/javascript">jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
-<!-- hello! -->
+
 </head>
 <body>
 
@@ -126,17 +126,6 @@
 <!--stripe top bar -->
 <span class="stripe top-of-page hidden-print"></span>
 
-<!--TOOL BAR NOTIFY works with assets/js/notifymyass.js-->
-<div class="notify-wrapper">
-    <div class="notifymyass hidden-print">
-    <!-- span shows on small sizes under 768 -->
-    <span class="visible-xs visible-sm">Special Alert <i class="icon-down-open-mini"></i></span>
-        <!-- p shows on 768 and up-->
-        <p class="visible-md visible-lg">This is a simple notification on the home page on this site with a cookie set to 0 days. You can easily adjust this or remove the cookie.</p>
-        <a href="#" class="dismiss"><i class="icon-cancel"></i></a>
-    </div><!--/notifymyass-->
-    <a href="#" class="toggle-notify active text-decoration-none"><i class="icon-down-dir-1"></i></a>
-</div><!--/notify-wrapper-->
 
 
 <div id="site-wrapper">
@@ -149,6 +138,9 @@
 <!--mobile NAV/PRIMARY NAV trigger -->
  <nav class="mobile-nav-trigger"><i class="icon-menu-1"></i> <span>menu</span></nav>
 
+<!--mobile TOOLBAR trigger -->
+<!--  <nav class="mobile-toolbar-trigger"><i class="icon-chat"></i> <span>contact / location</span></nav> -->
+<!-- ## use only VERY short 14 character or under words for the trigger names or create another solution for the mobile headers -->
 
 </div><!--/mobile-trigger-wrapper -->
 
@@ -168,6 +160,7 @@
 
 
 
+
 <div class="site-content clearfix">
 
 <!-- _________ BEGIN HEADER _________ -->
@@ -180,13 +173,12 @@
 
 
 
+
 <!-- _________ BEGIN LOGO _________ -->
 <div class="logo-wrapper"><!--manipulate logo position in some themes-->
 
-   <div id="logo">
-     <a href="index.html" class="logo-link">
-      <img src="assets/images/blank.gif" alt="International Institute for Energy Systems Integration" />
-     </a>
+    <div id="logo">
+     <a href="index.html" class="logo-link"><img src="assets/images/blank.gif" alt="International Institute for Energy Systems Integration" /></a>
 
     <!-- svg logo-->
     <img class="logo-svg" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
@@ -194,7 +186,8 @@
     <!--.no-svg fallback -->
     <img class="fallbacklogo" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
 
-</div><!-- / #logo -->
+    </div><!-- / #logo -->
+
 
 </div><!-- / logo-wrapper -->
 <!-- _________ END LOGO _________ -->
@@ -205,11 +198,11 @@
 
 <div id="nav" class="hidden-print" role="navigation">
 <ul class="primary-nav">
-    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="education.html">Education</a></li>
-    <li><a href="sponsors.html">Members &amp; Sponsors</a></li>
-    <!-- li><a href="news.html">News</a></li -->
+    <li><a href="sponsors.html">Sponsors &amp; Members</a></li>
+    <!--li><a href="news.html">News</a></li -->
     <li><a href="events.html">Events</a></li>
     <li><a href="contacts.html">Contacts</a></li>
 </ul>
@@ -227,149 +220,63 @@
 
 
 
+<div id="page">
 
-
-<div class="container">
-<div class="row">
- <div class="col-sm-12">
-<!-- Carousel
-    ================================================== -->
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
-  <!-- Indicators -->
-
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item active">
-    <img class="img-responsive" src="assets/images/hp-1.jpg" alt="First slide">
+<!--.main-page-header begin-->
+<!--
+<div class="main-page-header text-center">
+    <div class="main-page-header-inner">
+    <h1>Header</h1>
     </div>
-    <div class="item"> 
-    <img class="img-responsive" src="assets/images/hp-2.jpg" alt="Second slide">
-    </div>
-    <div class="item">
-    <img class="img-responsive" src="assets/images/hp-3.jpg" alt="Third slide">
-    </div>
-    <div class="item">
-    <img class="img-responsive" src="assets/images/hp-4.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
- </div>
- 
-
-
-<!-- /.carousel -->
- </div>
 </div>
-</div>
+-->
+<!--/.main-page-header-->
 
 <div class="primary-content clearfix">
 <!--______________________________________________________ begin page content ______________________________________________________-->
 
 
 
+<div class="container" >
+    <div class="content-inner-wrapper single-page">
+        <div class="row">
+            <div class="col-lg-12">
 
 
-<div class="wide-wrapper">
-<div class="container">
- <div class="row">
-
-  <div class="col-sm-12">
-    
-    <p class="hplead">Solving complex global energy challenges requires changing the way we THINK about energy systems, providing opportunities to SHARE knowledge, and helping nations EVOLVE by informing the discussions that are guiding energy investments and policy decisions.</p>
-    
-  </div>
-  <!--./col-->
-
- </div>
- <!--./row-->
- 
-
-
-</div>
-<!--./container-->
-
- 
-<div class="greybg">
- <div class="container">
-  <div class="row">
-   <div class="col-xs-12">
-   
-
-  <h2 style="color:#fff;">What Is Energy Systems Integration?</h2>
-  <p>Also known as ESI, energy systems integration is a holistic view of all energy systems we use today&mdash;not just electrical, but also transportation, heat, and water. ESI is about tapping into the combined strength of energy systems&mdash;from those that operate in individual homes and communities to those that span whole regions of the world&mdash;and maximizing the value of every unit of energy we use. By focusing on the optimization of energy systems across multiple pathways and scales, we can better understand how to increase reliability, reduce cost, and minimize environmental impacts of our energy systems.</p>
-  <div class="pagination-centered">
-  <a class="btn btn-primary" href="education.html" role="button">Learn More About ESI</a>
-  </div>
-  
-<!-- START VIDEO EMBEDDING -->
-<div class="hpvideo">  
-<div id="iiesi" ></div>
-<script>
-    jwplayer("iiesi").setup({
-        file: "/assets/media/iiesi-720p.mp4",
-        image: "/assets/images/poster-iiesi-video.jpg",
-		aspectratio: "16:9",
-		width: "100%",
-		skin: "bekle",
-		sharing: {},
-        tracks: [{ 
-          file: "/assets/media/iiesi-captions.vtt",
-        }],
-		 captions: { 
-		 color: 'ffffff', 
-		 fontsize: '12'
-		 }
-    });
-</script>
-<p class="hpvideocaption"><em><a href="iiesi-video-text.html">Text Version</a></em></p>
-</div><!-- END VIDEO EMBEDDING -->
-
-   </div>
-  </div>
- </div>
-</div>
-  
-<div class="container">
-  <div class="row">
-   <div class="col-xs-12">
-   
-	<h2>Join Us</h2>
-    <p>If you want to learn more about what is happening on the leading edge of ESI research around the world, we encourage you to join us at an <a href="events.html">upcoming event</a>. You can also help facilitate global ESI collaboration by <a href="sponsors.html">becoming an iiESI member</a>.</p>
-    <div class="pagination-centered">
-     <a class="btn btn-primary" href="events.html" role="button">Upcoming Events</a>
-     <a class="btn btn-primary" href="sponsors.html" role="button">Become a Member</a>
-     </div>
-     
-   </div>
- </div>
-</div>
+<h1>iiESI Overview Video (Text Version)</h1>
+<p>Below is the text version of the iiESI Overview video.</p>
+<p><em>Dan Wetzel:</em> Energy systems integration is a new field that sort of has a more comprehensive look at the way that we as end users consume energy.</p>
+<p><em>Ben Kroposki:</em> Energy systems integration is a way of looking at the complete view of energy systems, from electric power grids to thermal energy systems, heating and cooling, as well as fuel systems, and how these all can be integrated together, and then touching upon other domains, like water systems, communication systems, and how we can optimize the complete view of energy across these areas.</p>
+<p>Energy systems integration is a really important topic, because right now in the United States, we waste over two-thirds of the primary energy sources that we use.</p>
+<p><em>Bryan Hannegan:</em> ESI is important because it's the process and the pathway to a clean and sustainable energy future. </p>
+<p><em>Ben Kroposki:</em> So the International Institute for Energy Systems Integration was formed really to bring together the best experts around the world in this variety of energy fields and link them together so that we can create a more holistic view of how we do energy optimization.</p>
+<p><em>Mark O'Malley:</em> So iiESI is a mechanism that certainly reflects the whole concept of energy systems integration itself. You can never be an expert in all parts of this. You can only be an expert in your own part. But if you work with people who are experts in the other parts, when you can gain an understanding of it. So iiESI has a very important role in terms of bringing people together and understanding all the parts of the energy system.</p>
+<p><em>Ben Kroposki:</em> It's really a way that we can create a knowledge base so that people that are interested in how to optimize energy can come to a single location and find out the latest information around this.</p>
+<p>So the global collaboration with iiESI is really important to its overall success. This way, we're able to take the best examples from around the world of people that are really integrating energy systems, and really understanding what's the best practices from those, and translating that for the global community.</p>
+<p><em>Linda Steg:</em>  I think it's important that people from different backgrounds are included, because everyone can help to solve this energy puzzle. Everyone has one bit of information that is crucial to help to solve this problem.</p>
+<p><em>Dan Wetzel:</em> Global collaboration is so integral to the world solving its energy issues. You need to know the technical dimensions of these energy systems, but then also these political/people dimensions as well, to really make sure that these solutions get implemented properly.</p>
+<p><em>Bryan Hannegan:</em> What I find exciting about this is the marriage of so many different fields of expertise. It is so big, and the challenges are so massive and so multifaceted that no one laboratory, no one institution, no one country, no one investigator, is going to be able to solve this all. By definition, the nature and the scale and the pace at which we're trying to move demands collaboration on the scale of the globe, on what we're trying to do with iiESI, and that's why we encourage everyone to get involved and help us with this grand challenge that awaits. </p>
+<p><em>Mark O'Malley:</em> It many ways it was an idea we thought was important internationally, but the number of people who've interacted with us, and how positively they've interacted with us, shows us that in fact people do want to work together. </p>
+<p><em>Iris van Beuzekom:</em> It's scary to go across your own boundary and to try and work with others from totally different fields. And I think it's really inspiring to see that that's what's happening here, and for me, it's a great confirmation of indeed this is important to work on, and we need to join together and see what we can do. </p>
+<p><em>Bryan Hannegan:</em> If we get this right and if we continue to make progress, we will find a way to avoid having to choose between reliable power and clean power, or clean power and affordable power, or energy in some places and not in others. We'll truly solve one of the biggest societal challenges that we face in a way that will endure for generations to come. </p>
+<p><em>Sarah Truitt:</em> iiESI is a multidisciplinary network of world class researchers. Join us and help us accelerate the evolution of energy systems integration worldwide by becoming a member or sponsor of iiESI. We have two levels of membership and many sponsorship opportunities. So visit iiESI.org to learn more.</p>
 
 
-
-
-
-
- </div><!--.content-inner-wrapper-->
-
-
+            </div>
+        </div>
+    </div><!--.content-inner-wrapper-->
+</div><!--close .container -->
 
 
 <!--______________________________________________________ end page content______________________________________________________ -->
 </div><!--/.primary-content-->
 
-
+</div><!--/#page-->
 
 
 
 <!-- ______________ BEGIN FOOTER ______________ -->
 <footer class="footer clearfix" id="footer">
-    <span class="footer-top"></span>
 
     <div class="container">
         <!--max-width holder-->
@@ -394,6 +301,7 @@ This website is managed and hosted by the National Renewable Energy Laboratory.<
     <!-- / footer .container-->
 </footer>
 <!-- ______________ END FOOTER ______________ -->
+
 
 
 
@@ -430,25 +338,17 @@ This website is managed and hosted by the National Renewable Energy Laboratory.<
 
 <!-- ====== IF THERE ARE SPECIFIC INITIALIZATIONS OR SCRIPTS FOR THIS PAGE, THEY GO HERE ========= -->
 
+<!--script src="assets/js/jquery.iconomatic.min.js"></script>
+<script>
+    $(document).ready( function(){
+        $('body').iconomatic();
+    });
+</script-->
 
 <!-- ====== IE 8 and 9 scripts wrapped in if statements loads faster than conditionals ========= -->
 <script src="assets/js/IE/ie8_9.js"></script>
 <script src="assets/js/IE/selectivizr-min.js"></script>
 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 </body>
 </html>
