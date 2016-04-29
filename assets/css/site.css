@@ -92,6 +92,14 @@
 	margin:0;
 	font-size:0.75em;
 }
+.list-group-item h5 {
+	margin-bottom:0;
+}
+.list-group-item p {
+	margin-top:0
+}
+
+
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
