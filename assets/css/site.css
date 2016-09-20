@@ -62,9 +62,10 @@
     display: inline;
     margin-left: .25em;
 }
+section {padding:2em 0;}
 .footer {
 	text-align:center;
-	margin-top:5em;
+	padding-top:3em;
 }
 .greybg {
 	background-color:#6d6e71; 
@@ -75,12 +76,20 @@
 .greybg h2 {
 	color:#fff;
 }
+.ltgreybg {
+	background-color:#eae9e9; 
+	padding: 2.5em 0 1.5em 0;
+}
+.blkbg {
+	background-color:#000;
+	color:#fff;
+	padding:5em 0;
+}
 .indent {margin-left:2em}
-
 .hplead {
-	text-align:center;
-	font-size:20px;
-	line-height:1.25em;
+	font-size:24px;
+	margin:0;
+	color:#2495d3;
 }
 .hpvideo {
 	margin:2em 0 0 0;
@@ -99,6 +108,44 @@
 	margin-top:0
 }
 
+/*==========  Home Page  ==========*/
+
+.hpcaption {
+	background: #000;
+	box-sizing: border-box;
+	line-height: 1.1;
+	padding: .5em 1em;
+	border-bottom: 10px solid #D36C05;
+	margin-bottom:15px;
+}
+.hp-container-1 {
+	background: #000;
+	box-sizing: border-box;
+	line-height: 1.1;
+	padding: .5em 1em;
+	float:left;
+	flex:0.75;
+}
+.hp-container-2 {
+	display:inline;
+	flex:1.5;
+}
+.hp-container-2 img {
+	border-bottom:10px solid #0496CC;
+}
+.hpcaption p, .hp-container-1 p {
+	color:#fff;
+	margin-top:0;
+	line-height:normal;
+}
+.hpcaption h1, .hpcaption h2, .hp-container-1 h1, .hp-container-1 h2 {
+	line-height:normal;
+	margin:12px 0 0 0;
+}
+.hp-wrapper {
+	display:flex;
+	margin-bottom:15px;
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -120,12 +167,16 @@
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
-
+		.hplead {
+		font-size:20px;
+		}
     }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-
+		.hplead {
+		font-size:24px;
+		}
     }
 .pad {
 	margin:2em 0;

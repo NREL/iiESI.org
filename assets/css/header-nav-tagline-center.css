@@ -25,6 +25,7 @@ the top of this file after the import.
 .header .container {
   max-width: none;
   width: 100%;
+  background-color:#000;
 }
 /* ------------------ Tagline -------------------- */
 .logo-wrapper h2.tagline {
@@ -68,7 +69,7 @@ but it works so well.
 /* --------- LOGO MOBILE -------- */
 #logo {
   width: 100%;
-  padding: 15px 5% 0;
+  padding: 1em 0;
   position: relative;
   text-align: center;
 }
@@ -96,7 +97,7 @@ but it works so well.
     text-align: left;
   }
   .header .logo-wrapper {
-    max-width: 1000px;
+    max-width: 1170px;
     width: 95%;
     margin: 0 auto;
     overflow: hidden;
@@ -118,7 +119,7 @@ but it works so well.
 @media (min-width: 62em) {
   /*---------------------------[ #logo - logo biggest ]---------------------------*/
   #logo {
-    padding: 28px 0 0 0;
+    padding: 1em 0;
     float: left;
     text-align: left;
     width: 30%;
@@ -437,6 +438,7 @@ a new class is assigned.
     -webkit-font-smoothing: subpixel-antialiased;
     padding: 0 10px;
     text-decoration: none;
+	text-transform:uppercase;
   }
   /* --- top level link borders --- */
   /*.primary-nav > li:not(:last-child) > a {
@@ -474,7 +476,6 @@ a new class is assigned.
   /* --- parent ul --- */
   .primary-nav {
     margin: 0;
-    padding: 0;
     list-style: none;
  /*   float: right; */
     position: relative;

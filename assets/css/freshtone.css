@@ -115,6 +115,13 @@ embed,
   -moz-outline-style: none;
   outline: none!important;
 }
+h2 a {
+	color:#0496CC;
+	text-decoration:none;
+}
+h2 a:hover, h2 a:focus, h2 a:active {
+	color:#f4f4f4;
+}
 /* ---------- reset fonts ---------------*/
 input,
 button,
@@ -180,7 +187,7 @@ body,
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1170px;
   width: 95%;
 }
 /* ------------- #page -------------- */
@@ -755,16 +762,16 @@ hr {
 }
 h1,
 .h1 {
-  font-size: 22px;
-  font-size: 1.375rem;
-  color: #444444;
+  font-size: 32px;
+  font-weight: 300;
+  color: #D36C05;
   line-height: 1.2;
 }
 h2,
 .h2 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  color: #444444;
+  font-size: 26px;
+  font-weight: 400;
+  color: #0496CC;
   line-height: 1.2;
 }
 h3,
@@ -804,6 +811,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility;
   line-height: 1.4;
 }
@@ -1010,30 +1018,19 @@ a.bg-danger:hover {
 .text-info.underline {
   border-color: #17718b;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 #nav,
 .mobile-menu,
 .btn,
 .toolbar {
-  font-family: "Roboto", arial, lucida grande, helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight:400;
+  font-size:20px;
 }
 .primary-menu,
 .mobile-menu {
   font-weight: 400;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-}
+
 a:hover h1,
 a:hover h2,
 a:hover h3,
@@ -4422,10 +4419,9 @@ but this is not always the case, so this CSS was fixed to make the thumbs work c
 }
 /*---------------[ ### footer - footer.less ]---------------------------*/
 .footer {
-  background: url('../backgrounds/white50p.png');
+  background-color:#eae9e9; 
   position: relative;
   clear: both;
-  border-bottom: 1px solid #dddddd;
 }
 .footer .container {
   padding-bottom: 30px;
@@ -4438,10 +4434,11 @@ but this is not always the case, so this CSS was fixed to make the thumbs work c
   font-size: 90%;
 }
 .footer a {
-  text-decoration: none;
+  text-decoration: underline;
+  color:#2495d3;
 }
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .footer .social li {
   padding: 0 2px 0 0;
@@ -4848,7 +4845,7 @@ input[type="search"] {
     margin-right: 0.3125rem;
   }
   .form-inline .form-control {
-    width: auto;
+    width: 300px;
   }
   .form-inline label {
     margin-right: 5px;

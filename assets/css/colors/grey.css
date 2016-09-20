@@ -1,4 +1,4 @@
-/* -------------------- [ blue.less ] ------------------ */
+.header-center #nav/* -------------------- [ blue.less ] ------------------ */
 /*! -------------------- */
 /*! BadAssTheme.com: FreshTone Version 1.0.1
 * 11 February 2014
@@ -410,7 +410,9 @@ a.list-group-item.active:focus .list-group-item-text {
   .header-center .primary-nav > li > a:hover,
   .header-center .primary-nav > .active > a,
   .header-center .primary-nav > li > .dcjq-parent.active {
-    color: #a4c8f5;
+    color: #fff;
+	background:#2B2B2E;
+	border-bottom: solid 5px #00adee;
   }
   .primary-nav ul li a:hover,
   .primary-nav ul .active > a,
@@ -419,7 +421,7 @@ a.list-group-item.active:focus .list-group-item-text {
     background: #194f91;
   }
   .header-center #nav {
-    background: #6d6e71;
+    background: #58595B;
   }
   /*.header-center .primary-nav > li:not(:last-child) > a {
     border-right: 1px solid #1a5196;
