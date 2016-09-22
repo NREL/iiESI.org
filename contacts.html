@@ -2,31 +2,31 @@
 <html class="no-js" lang="en">
 <head>
 <title>Contacts | iiESI</title>
-<!-- META ============================================== -->
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes">
 
-
 <!-- CSS ============================================== -->
         <!-- theme fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:500,400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"> 
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
         <!-- ___________________________READ ME________________________________________-->
         <!-- Uncompressed css and LESS (upon request) are provided with purchase-->
         <!-- _________________________________________________________________________-->
 
         <!-- CUSTOM BOOTSTRAP -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.min.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-custom.css" >
 
         <!-- CORE design -->
-        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/freshtone.css">
 
         <!-- HEADER combine with the freshtone.css when you choose the one you're using but put it at the end of the file AFTER all other CSS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/header-nav-tagline-center.css">
 
 
         <!-- IE 8 Stylesheet -->
@@ -45,7 +45,7 @@
 
         <!-- COLORS -->
         <!-- add the color stylesheet here you want here if it's not the default green color -->
-        <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.min.css" >
+        <link rel="stylesheet" type="text/css" href="assets/css/colors/grey.css" >
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png">
@@ -105,6 +105,12 @@
 
         <!-- WINDOWS 8 Phones BUG FIX -->
         <script src="assets/js/IE/windows-fix.js"></script>
+        
+        <!-- JWPlayer for video -->
+        <script type="text/javascript" src="/assets/js/jw6/jwplayer.js" ></script> 
+		<script type="text/javascript">jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
+
+
 
 
 </head>
@@ -177,10 +183,10 @@
      </a>
 
     <!-- svg logo-->
-    <img class="logo-svg" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+    <img class="logo-svg" src="assets/images/iiesi-reversed-logo.png" alt="International Institute for Energy Systems Integration" />
 
     <!--.no-svg fallback -->
-    <img class="fallbacklogo" src="assets/images/logo_iiesi.png" alt="International Institute for Energy Systems Integration" />
+    <img class="fallbacklogo" src="assets/images/iiesi-reversed-logo.png" alt="International Institute for Energy Systems Integration" />
 
 </div><!-- / #logo -->
 
@@ -191,13 +197,15 @@
 <!-- _________ BEGIN MENU which is cloned for mobile from this html _________ -->
 <!-- BEFORE fiddling with the menu read theme-scaffolding.html#primary-menu -->
 
+
 <div id="nav" class="hidden-print" role="navigation">
 <ul class="primary-nav">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="who.html">Who We Are</a></li>
-    <li><a href="join.html">Join Us</a></li>
-    <li><a href="resources.html">Resources</a></li>
-    <li><a href="events.html">Events</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/who.html">Who We Are</a></li>
+    <li><a href="/what.html">What We Do</a></li>
+    <li><a href="/join.html">Join Us</a></li>
+    <li><a href="/resources.html">Resources</a></li>
+    <li><a href="/events.html">Events</a></li>
 </ul>
 </div>
 <!--/#nav-->
@@ -208,76 +216,48 @@
 </header>
 <!-- _________ END HEADER _________-->
 
-
-
-
-
-
-<div id="page">
-
-<!--.main-page-header begin-->
-<!--
-<div class="main-page-header text-center">
-    <div class="main-page-header-inner">
-    <h1>Header</h1>
-    </div>
-</div>
--->
-<!--/.main-page-header-->
-
-<div class="primary-content clearfix">
 <!--______________________________________________________ begin page content ______________________________________________________-->
 
-
-<div class="container" >
-    <div class="content-inner-wrapper single-page">
-        <div class="row">
-            <div class="col-lg-12">
-
-    <h1>Contacts</h1>
-
-    <p>Contact us about the International Institute for Energy Systems Integration.</p>
-
-
-    <h2>Institute Contacts</h2>
-
-    <p>For more information about the International Institute for Energy Systems Integration or to become involved, contact: </p>
-    <ul>
-   			<li><p><a href="mailto:bryan.hannegan@nrel.gov">Bryan Hannegan</a><br>
-            Associate director<br>
-            National Renewable Energy Laboratory</p></li>
-
+<section>
+	<div class="container">
+	<div class="row">
+ 	<div class="col-md-12">
     
-    
-    		<li><p><a href="mailto:mark.omalley@ucd.ie">Mark O'Malley</a><br>
-            Director<br>
-            Electricity Research Centre, University College Dublin</p></li>
+    	<h1>Contacts</h1>
+        <p class="lead bottom-line">Contact us about the International Institute for Energy Systems Integration.</p>
+        <h2>Institute Contacts</h2>
+        <p>For more information about the International Institute for Energy Systems Integration or to become involved, contact:</p>
+        <ul class="fa-bullet">
+          <li><a href="mailto:profmarkomalley@gmail.com">Mark O'Malley</a><br>
+            iiESI Director<br>
+            Electricity Research Centre, University College Dublin</li>
+          <li><a href="mailto:bryan.hannegan@nrel.gov">Bryan Hannegan</a><br>
+            iiESI Executive Director<br>
+            National Renewable Energy Laboratory</li>
+          <li><a href="mailto:iiesi@nrel.gov">Sarah Truitt</a><br>
+            Sponsor and Membership Information<br>
+            National Renewable Energy Laboratory</li>
+        </ul>
+        <h2>Website Contact</h2>
+        <p>For questions or comments about this website, <a href="mailto:iiesi@nrel.gov">contact the Webmaster</a>.</p>
+        
+    </div>
+	</div>
+	</div>
+</section>
 
 
-        <li><p><a href="mailto:iiesi@nrel.gov">Sarah Truitt</a><br>
-		        Sponsor and membership information<br>
-  		      National Renewable Energy Laboratory</p></li>
-	
-        <li><p><a href="mailto:jud.virden@pnnl.gov">Jud Virden</a><br>
-        		Associate director<br>
-       			Pacific Northwest National Laboratory.</p></li>
-    </ul>
-
-    <h2>Website Contact</h2>
-
-    <p>For questions or comments about this website, <a href="mailto:Connie.Komomua@nrel.gov">contact the Webmaster</a>. </p>
 
 
-            </div>
-        </div>
-    </div><!--.content-inner-wrapper-->
-</div><!--close .container -->
+
+ </div>
+
+  
 
 
 <!--______________________________________________________ end page content______________________________________________________ -->
-</div><!--/.primary-content-->
 
-</div><!--/#page-->
+
 
 
 
@@ -309,15 +289,8 @@ This website is managed and hosted by the National Renewable Energy Laboratory.<
 <!-- ______________ END FOOTER ______________ -->
 
 
-
-
-
-
 </div>
-<!--/.site-content -->
 
-</div>
-<!--/#site-wrapper -->
 
 <!--to top -->
 <div id="toTop" title="up">
@@ -344,11 +317,25 @@ This website is managed and hosted by the National Renewable Energy Laboratory.<
 
 <!-- ====== IF THERE ARE SPECIFIC INITIALIZATIONS OR SCRIPTS FOR THIS PAGE, THEY GO HERE ========= -->
 
+
 <!-- ====== IE 8 and 9 scripts wrapped in if statements loads faster than conditionals ========= -->
 <script src="assets/js/IE/ie8_9.js"></script>
 <script src="assets/js/IE/selectivizr-min.js"></script>
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script>
 
 </body>
 </html>
-

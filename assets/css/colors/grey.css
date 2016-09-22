@@ -58,8 +58,14 @@ fieldset[disabled] .btn-primary.active {
 .btn-knockout:focus {
   color: #6d6e71;
 }
+a {
+	color:#0496CC;
+}
 a:hover {
-  color: #6d6e71;
+  text-decoration:none;
+}
+a:visited {
+	color:#D36C05;
 }
 .label-primary {
   background-color: #6d6e71;

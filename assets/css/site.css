@@ -64,6 +64,7 @@
 }
 section {padding:2em 0;}
 .footer {
+	font-family:'Roboto', sans-serif;
 	text-align:center;
 	padding-top:3em;
 }
@@ -85,11 +86,17 @@ section {padding:2em 0;}
 	color:#fff;
 	padding:5em 0;
 }
+.blkbg .lead {
+	color:#fff;
+	font-weight:400;
+}
 .indent {margin-left:2em}
 .hplead {
+	font-family:'Roboto', sans-serif;
 	font-size:24px;
 	margin:0;
 	color:#2495d3;
+	text-align:center;
 }
 .hpvideo {
 	margin:2em 0 0 0;
@@ -97,15 +104,29 @@ section {padding:2em 0;}
 .hpvideo a, .hpvideo a:hover, .hpvideo a:visited {
 	color:#fff;
 }
-.hpvideocaption {
+.video-text-link {
+	color:#fff;
 	margin:0;
 	font-size:0.75em;
+	font-weight:400;
+	font-style:italic;
+	text-align:right;
 }
 .list-group-item h5 {
 	margin-bottom:0;
 }
 .list-group-item p {
 	margin-top:0
+}
+.reverse {
+	color:#fff;
+}
+.pad {
+	margin:2em 0;
+}
+.leadership {
+	float:left;
+	margin: 0 10px 0 0;
 }
 
 /*==========  Home Page  ==========*/
@@ -147,6 +168,24 @@ section {padding:2em 0;}
 	margin-bottom:15px;
 }
 
+/*==========  Black Callout Box  ==========*/
+
+.blk-box {
+	background-color:#000;
+	font-family:'Roboto', sans-serif;
+	padding:20px;
+	margin-bottom:30px;
+	border-bottom: 10px solid #0496CC;
+}
+.blk-box h2, .blk-box p {
+	color:#fff;
+}
+.blk-box h3.blue, .blk-box p.blue {
+	color:#0496CC;
+}
+.small {font-size:14px;}
+
+
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
@@ -178,6 +217,3 @@ section {padding:2em 0;}
 		font-size:24px;
 		}
     }
-.pad {
-	margin:2em 0;
-}

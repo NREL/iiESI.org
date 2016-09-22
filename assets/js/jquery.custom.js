@@ -495,8 +495,7 @@ $(document).ready(function() {
 
 });	// end pricing plans
 
-/* __________________ Add active nav class based on URL __________________*/
-
+/* __________________ Add active nav class based on URL __________________
 $(function () {
     setNavigation();
 });
@@ -514,7 +513,17 @@ function setNavigation() {
     });
 }
 
+*/
 
+/* __________________ Accordion: active header __________________*/
+
+ $('.panel-default').on('show.bs.collapse', function () {
+         $(this).addClass('active');
+    });
+
+    $('.panel-default').on('hide.bs.collapse', function () {
+         $(this).removeClass('active');
+    });
 
 
 
