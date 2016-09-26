@@ -1067,15 +1067,17 @@ output {
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
+.blk-box .form-control {
+	border: 2px solid #c4c5c7;
+	color:#fff;
+}
 .form-control:focus {
   border-color: #6fa314;
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(111, 163, 20, 0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(111, 163, 20, 0.6);
 }
-.form-control:-moz-placeholder {
-  color: #999;
-}
+
 .form-control::-moz-placeholder {
   color: #999;
   opacity: 1;
@@ -1086,6 +1088,19 @@ output {
 .form-control::-webkit-input-placeholder {
   color: #999;
 }
+
+.blk-box .form-control::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.blk-box .form-control:-ms-input-placeholder {
+  color: #fff;
+}
+.blk-box .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {

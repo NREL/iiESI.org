@@ -96,7 +96,6 @@ a[href^=tel] {
   color: inherit;
   text-decoration: none;
 }
-p a,
 p a:visited {
   color:#D36C05;
   line-height: inherit;
@@ -898,8 +897,9 @@ p {
   line-height: 1.5;
 }
 .lead.bottom-line {
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+	border-bottom:1px solid #ccc;
+  	margin-bottom: 1em;
+  	padding-bottom: 1em;
 }
 .page-header {
   padding-bottom: .5%;
@@ -4774,6 +4774,9 @@ input[type="search"] {
   }
   .form-inline .form-control {
     width: 300px;
+  }
+  .blk-box .form-inline .form-control {
+    width: 185px;
   }
   .form-inline label {
     margin-right: 5px;
