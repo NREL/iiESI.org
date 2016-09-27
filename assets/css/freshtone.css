@@ -154,8 +154,6 @@ body,
 .short-headline span span,
 .btn.btn-knockout {
   background-color: #ffffff;
-/*  background-image: url('../backgrounds/extra_clean_paper.gif');
-  background-attachment: fixed; */
 }
 .content-inner-wrapper .short-headline span span {
   background-image: none!important;
