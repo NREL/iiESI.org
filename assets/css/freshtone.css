@@ -42,10 +42,6 @@ html {
   display: -ms-flexbox;
   display: -webkit-flex;
 }
-@supports (flex-wrap: wrap) { /* hide from the incomplete Flexbox implementation in Firefox */
-    body {
-      display: flex;
-    }
 }
 body {
   color: #414241;
