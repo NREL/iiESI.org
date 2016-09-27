@@ -214,16 +214,7 @@ body,
     padding: 10px 40px;
   }
 }
-/* --------- RETINA ISOLATED FROM IE8 due to respond.js being too good ------------- */
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .boxshadow #site-wrapper,
-  .boxshadow .short-headline span span,
-  .boxshadow .btn-knockout {
-    background-image: url('../backgrounds/extra_clean_paper_@2x.gif');
-    background-size: 512px 512px;
-  }
-}
-/* end retina for main bg image */
+
 /*---------------[ ### custom buttons - custom-buttons.less ]---------------------------*/
 .btn-custom {
   border-radius: 20px;
