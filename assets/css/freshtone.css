@@ -39,8 +39,6 @@ html.multiplebgs *:after {
 html {
   font-size: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  display: -ms-flexbox;
-  display: -webkit-flex;
 }
 }
 body {
