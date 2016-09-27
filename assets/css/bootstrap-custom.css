@@ -2918,7 +2918,7 @@ pre code {
   color: #fff;
 }
 .panel-title > a:link:after {
-  content: '\f139';
+  content: '\f13a';
   font-family: 'FontAwesome';
   position: absolute;
   right: 0; 
@@ -2928,10 +2928,10 @@ pre code {
 	color:#00adee;
 }
 .panel-title > a:hover:after {
-	content: '\f13a';
+	content: '\f139';
 }
 .panel-default.active > .panel-heading > .panel-title > a:after {
-  content: '\f13a';
+  content: '\f139';
 }
 .panel-footer {
   padding: 10px 15px;
