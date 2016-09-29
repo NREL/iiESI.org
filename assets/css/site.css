@@ -187,7 +187,21 @@ section {padding:2em 0;}
 	color:#0496CC;
 }
 .small {font-size:14px;}
-
+.google-maps {
+	position: relative;
+	padding-bottom: 40%; /*This is the aspect ratio*/
+	height: 0;
+	overflow: hidden;
+	margin-bottom:25px;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	width: 100% !important;
+	height: 100% !important;
+}
 
 /*==========  Mobile First Method  ==========*/
 
