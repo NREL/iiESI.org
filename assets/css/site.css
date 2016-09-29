@@ -142,6 +142,21 @@ section {padding:2em 0;}
 	border-bottom: 10px solid #D36C05;
 	margin-bottom:15px;
 }
+.hp-wrapper {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+	margin-bottom:15px;
+}
 .hp-container-1 {
 	background: #000;
 	box-sizing: border-box;
@@ -166,10 +181,7 @@ section {padding:2em 0;}
 	line-height:normal;
 	margin:12px 0 0 0;
 }
-.hp-wrapper {
-	display:flex;
-	margin-bottom:15px;
-}
+
 
 /*==========  Black Callout Box  ==========*/
 

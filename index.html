@@ -107,7 +107,7 @@
         <script src="assets/js/IE/windows-fix.js"></script>
         
         <!-- JWPlayer for video -->
-        <script type="text/javascript" src="/assets/js/jw6/jwplayer.js" ></script> 
+        <script type="text/javascript" src="assets/js/jw6/jwplayer.js" ></script> 
 		<script type="text/javascript">jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
 
 
@@ -234,8 +234,11 @@
   			<h2><a href="join.html">Join Us</a></h2>
  			<p class="lead">Become a member of our international community of researchers.</p>
  			</div>
-        	<div class="hp-container-2">
-        	<img src="assets/images/hp-feature-2@2x.jpg" class="img-responsive" alt="Photo of a researcher giving a lecture"/>
+        	<div class="hp-container-2 hidden-xs hidden-sm">
+        	<img src="assets/images/hp-feature-2-test.jpg" alt="Photo of a researcher giving a lecture"/>
+        	</div>
+            <div class="hp-container-2 hidden-md hidden-lg">
+        	<img src="assets/images/hp-feature-2@2x.jpg" alt="Photo of a researcher giving a lecture"/>
         	</div>
         </div>
         <div class="hp-wrapper">
@@ -243,8 +246,11 @@
         	<h2><a href="resources.html">Resource Library</a></h2>
  			<p class="lead">Access educational publications and course materials.</p>
         	</div>
-            <div class="hp-container-2">
-        	<img src="assets/images/hp-feature-1@2x.jpg" class="img-responsive" alt="Photo of researchers looking at a computer screen in a laboratory"/>
+            <div class="hp-container-2 hidden-xs hidden-sm">
+        	<img src="assets/images/hp-feature-1-test.jpg" alt="Photo of researchers looking at a computer screen in a laboratory"/>
+            </div>
+            <div class="hp-container-2 hidden-md hidden-lg">
+        	<img src="assets/images/hp-feature-1@2x.jpg" alt="Photo of researchers looking at a computer screen in a laboratory"/>
             </div>
         </div>
  	</div>
@@ -309,14 +315,14 @@
 <div id="iiesi" ></div>
 <script>
     jwplayer("iiesi").setup({
-        file: "/assets/media/iiesi-720p.mp4",
-        image: "/assets/images/poster-iiesi-video.jpg",
+        file: "assets/media/iiesi-720p.mp4",
+        image: "assets/images/poster-iiesi-video.jpg",
 		aspectratio: "16:9",
 		width: "100%",
 		skin: "bekle",
 		sharing: {},
         tracks: [{ 
-          file: "/assets/media/iiesi-captions.vtt",
+          file: "assets/media/iiesi-captions.vtt",
         }],
 		 captions: { 
 		 color: 'ffffff', 
