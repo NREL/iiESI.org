@@ -106,13 +106,6 @@
         <!-- WINDOWS 8 Phones BUG FIX -->
         <script src="assets/js/IE/windows-fix.js"></script>
         
-        <!-- JWPlayer for video -->
-        <script type="text/javascript" src="assets/js/jw6/jwplayer.js" ></script> 
-		<script type="text/javascript">jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
-
-
-
-
 </head>
 
 <body>
@@ -306,24 +299,9 @@
   
 <!-- START VIDEO EMBEDDING -->
 <div class="hpvideo">  
-<div id="iiesi" ></div>
-<script>
-    jwplayer("iiesi").setup({
-        file: "assets/media/iiesi-720p.mp4",
-        image: "assets/images/poster-iiesi-video.jpg",
-		aspectratio: "16:9",
-		width: "100%",
-		skin: "bekle",
-		sharing: {},
-        tracks: [{ 
-          file: "assets/media/iiesi-captions.vtt",
-        }],
-		 captions: { 
-		 color: 'ffffff', 
-		 fontsize: '12'
-		 }
-    });
-</script>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5TxjWqerLwA?rel=0"></iframe>
+</div>
 <p class="video-text-link"><a href="iiesi-video-text.html">Text Version</a></p>
 </div><!-- END VIDEO EMBEDDING -->
 
