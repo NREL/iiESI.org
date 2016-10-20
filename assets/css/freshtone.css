@@ -1284,7 +1284,7 @@ ol ol {
   margin-bottom: 0;
 }
 ul.fa-bullet { list-style-type: none; }
-ul.fa-bullet li {
+ul.fa-bullet li, ul li {
 	margin:0 0 1.5em 0;
 }
 ul.fa-bullet li:before {    
