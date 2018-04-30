@@ -148,7 +148,7 @@ section {padding:2em 0;}
 	background: #000;
 	box-sizing: border-box;
 	line-height: 1.1;
-	padding: .5em 1em;
+	padding: .5em 0.75em;
 	float:left;
 	flex:0.75;
 }
